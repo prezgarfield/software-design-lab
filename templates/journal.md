@@ -14,4 +14,10 @@ Tomorrow, I'm hoping to make Jonathan Reeve's word embedding workshop at the xpM
 
 Note to self: Always start off the day's gitting with a status and a pull.  Always end with a status and, perhaps, a push.
 
+## Week Three (2/7 to 2/13)
 
+Coding:
+Spent over 8 hours developing a python program that takes in a video file (works so far with mp4 and avi, using cv2 (so probably other formats as well), breaks it into frames, stores the frames, runs rbg averaging and rbg medianing(sic?) algorithms to produce 2 new images.  Popped some of these up in an Instagram account.  Instagram sucks for high res stuff, though, so I'll move them somewhere else where they can be viewed full size.  I haven't yet set up the avg/median algorithms to avoid memory issues, so I'll do that today.  Sequence: 1) Just run (hardcoded)X number of frames at a time, clear memory between, then avg/med composite images then 2)check available memory to determine total available and dynamically determine X from the frame size.
+
+Reading:
+Read back over the Learning Python the Hard Way exercises.  I'm comfortable with all it is asking us to do.  Some of the commands (like "print") presuppose an earlier Python version.  The Dear Developer article is fun and concise.  I like the argument that accessibility should be a fundamental front end web development skill.
