@@ -1,13 +1,17 @@
-# $NAME's Technical Journal
+# Rob's Technical Journal
+
+dropbox link: https://www.dropbox.com/sh/qgyrt3325y606sf/AADK4REvuFROf-u1YzZ4jeWla?dl=0
 
 ## Week Two (1/30 to 2/6)
 
-This week, I spent part of my time reviewing Git and the command line, including an hour with the DHRI command line tutorial. I found Git to be tough going, but feel like I made solid progress learning how to use pipes on the command line, though I'm still a little confused on the details of how they work. I also started learning how to run scripts in Python, which was very time consuming.
+So far this week, I got Git Bash up and running on my home desktop and created this repository from the command line.  I copied over, using cmd line still, the templates from Patrick's repo for the class.  I also created a new Python project which pulls in a set of sentences from a csv file, rearranges them with a shuffling algorithm, then creates a new MS Word document (python-docx) and prints the shuffled set of sentences punctuated by stochastically generated chapter and paragraph breaks.
 
-Hour 1: Git review using Pro Git book
-Hour 2: Git review using Pro Git book
-Hour 3: Phone call with classmate to fiture out pipes
-Hour 4: Tried running a "hello world" Python script
-Hour 5: ''
-Hour 6: ''
-Hour 7: Should have given up, but got the script eworking, though I'm still not sure what went wrong.
+Started learning the Spacy library for Python. Was able to install the library and a grammar using pip then tried to feed all of the aforementioned sentences into the grammar for parsing.  Since there are about 10k sentences, I hit a memory cap, so I rewrote the parsing function to take smaller chunks of text in at a time.  That worked.  Now, what to do with them?
+
+I created a db using SQLite and could probably use a little help figuring out how best to configure it.  I'd like to keep sentences, tags and tree parses in each record, but I'm not sure exactly where this is going so it is hard to come up with a good model.
+
+Tomorrow, I'm hoping to make Jonathan Reeve's word embedding workshop at the xpMethods lab.  More then.
+
+Note to self: Always start off the day's gitting with a status and a pull.  Always end with a status and, perhaps, a push.
+
+
