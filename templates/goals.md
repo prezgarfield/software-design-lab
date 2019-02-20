@@ -5,7 +5,6 @@ Spend at least 5 hours per week programming and/or learning the ins and outs of 
 
 -----
 
-Benchmark:
 
 
 ## Goal Two
@@ -14,7 +13,6 @@ Develop facility with Python in terms of creating and deploying full application
 
 -----
 
-Benchmark:
 
 ## Goal Three
 
@@ -22,4 +20,3 @@ Learn Spacy and create the first version of a language generation program using 
 
 -----
 
-Benchmark:
