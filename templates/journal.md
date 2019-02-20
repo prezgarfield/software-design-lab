@@ -35,3 +35,8 @@ Found this awesomely elegant n-gram algorithm on Locally Optimal:
 def find_ngrams(input_list, n):
   return zip(*[input_list[i:] for i in range(n)])
 I wasn't aware of the '*' operator(?) before.  Looks sexy.
+
+Reading:
+Decoding Liberation: not sure we have a chapter 10?  
+
+I'm so glad I chose to read the piece on Stallman rather than Torvalds.  Before this class, I didn't have much of an idea of this divide between "free" and "open source".  Fascinating.  Guess I'm a "free software" guy too, now.  Damn liberal programmers warping my values!
