@@ -10,7 +10,7 @@ Started learning the Spacy library for Python. Was able to install the library a
 
 I created a db using SQLite and could probably use a little help figuring out how best to configure it.  I'd like to keep sentences, tags and tree parses in each record, but I'm not sure exactly where this is going so it is hard to come up with a good model.
 
-Tomorrow, I'm hoping to make Jonathan Reeve's word embedding workshop at the xpMethods lab.  More then.
+Tomorrow, I'm hoping to make Jonathan Reeve's word embedding workshop at the xpMethods lab.  More then. [note: did not make it.  Spoke to Jonathan a bit last Friday about getting up and running on my own.]
 
 Note to self: Always start off the day's gitting with a status and a pull.  Always end with a status and, perhaps, a push.
 
@@ -21,3 +21,12 @@ Spent over 8 hours developing a python program that takes in a video file (works
 
 Reading:
 Read back over the Learning Python the Hard Way exercises.  I'm comfortable with all it is asking us to do.  Some of the commands (like "print") presuppose an earlier Python version.  The Dear Developer article is fun and concise.  I like the argument that accessibility should be a fundamental front end web development skill.
+
+## Week Four (2/14 to 2/20)
+
+Coding: 
+Spent about 3 hours looking into the TEI guidelines and am wondering if anyone has done any programmatic work towards automating TEI encoding of text.  Read over some TEI parsing examples from Github.
+
+Spent about an hour getting Spacy and Word2Vec added to a venv in my Anaconda install.  Patrick, you are right about PyCharm.  It's pretty awesome!
+
+Refined a bit of the video averaging program to handle files and directories better.  Fixed a directory bug.  Still haven't fixed the issue with memory problems which is holding me back from processing large amounts of image files.  Got sick on Monday and haven't been as productive as I'd like; usually, I have Mondays and Wednesdays to focus on this class.
