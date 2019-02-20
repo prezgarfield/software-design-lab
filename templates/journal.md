@@ -30,3 +30,8 @@ Spent about 3 hours looking into the TEI guidelines and am wondering if anyone h
 Spent about an hour getting Spacy and Word2Vec added to a venv in my Anaconda install.  Patrick, you are right about PyCharm.  It's pretty awesome!
 
 Refined a bit of the video averaging program to handle files and directories better.  Fixed a directory bug.  Still haven't fixed the issue with memory problems which is holding me back from processing large amounts of image files.  Got sick on Monday and haven't been as productive as I'd like; usually, I have Mondays and Wednesdays to focus on this class.
+
+Found this awesomely elegant n-gram algorithm on Locally Optimal:
+def find_ngrams(input_list, n):
+  return zip(*[input_list[i:] for i in range(n)])
+I wasn't aware of the '*' operator(?) before.  Looks sexy.
