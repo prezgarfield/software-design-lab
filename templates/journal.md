@@ -40,3 +40,17 @@ Reading:
 Decoding Liberation: not sure we have a chapter 10?  
 
 I'm so glad I chose to read the piece on Stallman rather than Torvalds.  Before this class, I didn't have much of an idea of this divide between "free" and "open source".  Fascinating.  Guess I'm a "free software" guy too, now.  Damn liberal programmers warping my values!
+
+## Week Five (2/21 - 2/27)
+
+Coding:
+About 5-6 hours: Fixed the memory problems with my image_play project, by adding a slice size variable and processing slices in succession, then combining the slices.  This is still not perfect because it relies on the user to specify slice size, but I'm not advanced enough yet to estimate available memory on the user's system.  I think I'll put this off for a bit.  It's working fine for me and allows me to make art at an high rate.
+
+About 6 hours: spent time looking at software to analyze the audio signals of speech.  Spun up a python playground to run librosa.  Looked at the tutorials and examples until I felt I understood a bit of what was happening.  My lack of knowledge about acoustics held me back, so I read some articles and whitepapers.  Working on looking at poetry readings from PennSound.
+
+Note to self: I think it's important that I start looking at natural language generation next.  
+
+About 10 minutes: installed jekyll on my desktop.  Reminder: install on my laptop!
+
+Reading: 
+Apparently I did this week's reading last week!
